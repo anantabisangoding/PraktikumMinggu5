@@ -1,0 +1,26 @@
+1.	Pengertian Bootstrap
+Bootstrap adalah framework front-end yang menyediakan kumpulan class CSS dan komponen siap pakai untuk membangun tampilan website. Bootstrap memudahkan pengembang membuat website yang konsisten, responsif, dan lebih cepat tanpa harus menulis seluruh CSS dari awal.
+
+2.	Memasang Bootstrap
+Bootstrap dapat digunakan dengan beberapa cara:
+•	CDN: menghubungkan file CSS dan JavaScript Bootstrap melalui URL pada HTML. Cara ini praktis dan tidak perlu mengunduh file Bootstrap.
+•	File lokal: mengunduh file Bootstrap, kemudian menghubungkan file CSS dan JavaScript tersebut dari folder project.
+•	Package manager: memasang Bootstrap melalui npm untuk project yang menggunakan pengelolaan dependensi JavaScript.
+
+3.	Grid dan Breakpoint
+Grid Bootstrap adalah sistem tata letak berbasis 12 kolom yang digunakan untuk mengatur posisi dan lebar elemen. Grid menggunakan class seperti .container, .row, dan .col. 
+Breakpoint adalah batas ukuran layar yang menentukan kapan tata letak berubah. Bootstrap menyediakan breakpoint sm, md, lg, xl, dan xxl, sehingga tampilan dapat disesuaikan dengan ukuran perangkat.
+
+4.	Class Bootstrap
+container untuk	membatasi dan memusatkan area konten.
+row untuk	membuat baris dalam sistem grid.
+col-md-6 untuk membuat kolom selebar setengah baris pada ukuran md ke atas.
+text center untuk	memusatkan teks.
+btn btn-primary untuk	membuat tombol dengan warna utama.
+mt-3 untuk memberikan margin atas.
+shadow untuk memberikan efek bayangan.
+rounded	untuk membuat sudut elemen membulat.
+
+5.	Gambar Responsif
+Gambar dapat dibuat responsif dengan class img-fluid. Class ini menerapkan lebar maksimum 100% dan tinggi otomatis sehingga gambar menyesuaikan lebar elemen induknya tanpa mengubah proporsinya.
+Contoh penggunaan : <img src="gambar.jpg" class="img-fluid" alt="Deskripsi gambar">
